@@ -23,4 +23,6 @@ Route::get('/my-service', 'HomeController@service')->name('service');
 Route::resource('/manage', 'ManageController');
 
 Route::resource('/manage-banner', 'ManageHomeBanner');
+
 Route::resource('/store-manage', 'StoreController');
+Route::resource('/deal-manage', 'DealController');
